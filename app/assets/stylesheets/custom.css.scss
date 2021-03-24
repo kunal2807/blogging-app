@@ -11,7 +11,7 @@
 
 body {
   scroll-behavior: smooth;
-  overflow: hidden;
+  // overflow: hidden;
 }
 #logo {
   float: left;
@@ -29,11 +29,6 @@ body {
 
 .center {
   text-align: center;
-}
-
-.container-fluid {
-  // margin-left: 5vw;
-  // margin-right: 5vw;
 }
 
 .jumbotron {
@@ -117,4 +112,15 @@ footer ul li {
 .listing {
   list-style: none;
   padding-left: 0;
+}
+
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
