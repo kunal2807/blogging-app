@@ -9,6 +9,10 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+body {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
 #logo {
   float: left;
   font-size: 1.7em;
@@ -28,8 +32,8 @@
 }
 
 .container-fluid {
-  margin-left: 5vw;
-  margin-right: 5vw;
+  // margin-left: 5vw;
+  // margin-right: 5vw;
 }
 
 .jumbotron {
@@ -80,7 +84,8 @@ footer ul {
 
 footer ul li {
   float: left;
-  margin-left: 15px;
+  // margin-left: 15px;
+  margin: 0;
 }
 
 .article-actions {
